@@ -3,10 +3,14 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { HomePage } from './views/home/home.page';
+//Pages
 
-import { HomePage } from './home.page';
 
 @NgModule({
+  declarations: [
+    HomePage
+  ],
   imports: [
     CommonModule,
     FormsModule,
@@ -17,7 +21,6 @@ import { HomePage } from './home.page';
         component: HomePage
       }
     ])
-  ],
-  declarations: [HomePage]
+  ]
 })
-export class HomePageModule {}
+export class SharedModule {}

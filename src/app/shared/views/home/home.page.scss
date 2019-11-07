@@ -1,0 +1,32 @@
+ion-content {
+  --background: url("../../../../assets/Background/home.png") no-repeat center center / cover;
+  .header {
+    margin-top: 8%;
+    margin-left: 10%;
+    &__title {
+      font-family: var(--ion-font-family-secondary);
+      h1 {
+        margin-bottom: 0;
+        font-size: 3em;
+      }
+      .secondary-title {
+        margin-top: 0;
+      }
+    }
+    &__text {
+      p {
+        width: 60%;
+        color: #707070;
+      }
+    }
+  }
+  ion-button{
+      color: #fff;
+      position: absolute;
+      top: 85%;
+      font-size: 1.5em;
+      ion-icon {
+          margin-left: 5%;
+      }
+  }
+}

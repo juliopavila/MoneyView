@@ -1,8 +1,8 @@
 {
-  "name": "moneyview",
+  "name": "Money View",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Julio Avila",
+  "homepage": "http://juliopavila.com",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
