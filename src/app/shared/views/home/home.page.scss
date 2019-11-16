@@ -1,32 +1,44 @@
+ion-header {
+  background: #5b2eb6;
+  ion-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    ion-label {
+      color: #fff;
+    }
+  }
+}
+
 ion-content {
-  --background: url("../../../../assets/Background/home.png") no-repeat center center / cover;
-  .header {
-    margin-top: 8%;
-    margin-left: 10%;
-    &__title {
-      font-family: var(--ion-font-family-secondary);
-      h1 {
-        margin-bottom: 0;
-        font-size: 3em;
+  .content {
+    &_header {
+      margin-top: -5%;
+      background: #5b2eb6;
+      h6 {
+        padding-top: 5%;
+        color: #fff;
+        margin-bottom: 0%;
       }
-      .secondary-title {
-        margin-top: 0;
+      h1 {
+        color: #fff;
+        padding-bottom: 5%;
+        margin-bottom: 0;
       }
     }
-    &__text {
-      p {
-        width: 60%;
+    &_img {
+      ion-img {
+        width: 110%;
+        margin-left: -5%;
+        margin-top: -0.1%;
+      }
+    }
+    &_body {
+      margin-top: -25%;
+      h3 {
         color: #707070;
       }
     }
-  }
-  ion-button{
-      color: #fff;
-      position: absolute;
-      top: 85%;
-      font-size: 1.5em;
-      ion-icon {
-          margin-left: 5%;
-      }
   }
 }

@@ -1,0 +1,7 @@
+<svg id="WhiteLogo" xmlns="http://www.w3.org/2000/svg" width="117.218" height="32.867" viewBox="0 0 117.218 32.867">
+  <g id="Logo">
+    <path id="Path_2" data-name="Path 2" d="M1295.462,126.683s25.961-23.51,20.673-31.346-32.246,19.51-32.246,19.51Z" transform="translate(-1274.141 -93.925)" fill="#fff" opacity="0.8"/>
+    <path id="Path_1" data-name="Path 1" d="M1307.722,126.654s-25.961-23.509-20.673-31.345,32.575,19.028,32.575,19.028Z" transform="translate(-1286.339 -93.787)" fill="#fff" opacity="0.75"/>
+  </g>
+  <text id="Control" transform="translate(47.218 23.295)" fill="#fff" font-size="22" font-family="Roboto-Thin, Roboto" font-weight="200"><tspan x="0" y="0">Control</tspan></text>
+</svg>
